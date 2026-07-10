@@ -27,35 +27,35 @@ bluestock_mf_capstone/
 │   ├── raw/           ← original downloaded files
 │   ├── processed/     ← cleaned, merged CSVs
 │   └── db/            ← bluestock_mf.db (SQLite)
-|   └── readme.md
+│   └── readme.md
 ├── notebooks/
 │   ├── 01_data_ingestion.ipynb
 │   ├── 02_data_cleaning.ipynb
 │   ├── 03_eda_analysis.ipynb
 │   ├── 04_performance_analytics.ipynb
 │   └── 05_advanced_analytics.ipynb
-|   └── readme.md
+│   └── readme.md
 ├── scripts/
 │   ├── etl_pipeline.py
 │   ├── live_nav_fetch.py
 │   ├── compute_metrics.py
 │   ├── recommender.py
-|   ├── Monte_Carlo_simulation.py
-|   ├── Markowitz_Efficient_Frontier.py
-|   ├── scheduled_etl.py
-|   └── readme.md
+│   ├── Monte_Carlo_simulation.py
+│   ├── Markowitz_Efficient_Frontier.py
+│   ├── scheduled_etl.py
+│   └── readme.md
 ├── sql/
 │   ├── schema.sql
 │   └── queries.sql
-|   └── readme.md
+│   └── readme.md
 ├── dashboard/
 │   ├── bluestock_mf.pbix
 |   └── dashboard.pdf
-|   └── readme.md
+│   └── readme.md
 ├── reports/
 │   ├── Final_Report.pdf
 │   └── Presentation.pptx
-|   └── readme.md
+│   └── readme.md
 ├── streamlit_app.py         # Interactive Streamlit dashboard
 ├── run_pipeline.py          # Main orchestration script
 ├── email_report.py          # Automated newsletter generator
