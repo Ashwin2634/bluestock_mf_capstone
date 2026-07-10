@@ -1,19 +1,4 @@
 
-## Installation
-
-Follow these steps to get the project up and running:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/your-repo-name.git](https://github.com/Ashwin2634/Capstone-Project-I---Mutual-Fund-Analytics.git
-   cd your-repo-name
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-3. Run the main scripts:
-   ```bash
-   python notebook/data_ingestion.py
-   python notebook/live_nav_fetch.py
 -------------------------------------------------------------------------------------------------------------------------------------
 
 # Bluestock Mutual Fund Analytics Platform
@@ -76,3 +61,84 @@ bluestock_mf_capstone/
    ```bash
    git clone https://github.com/Ashwin2634/bluestock_mf_capstone.git
    cd bluestock_mf_capstone
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+3. Run the main scripts:
+   ```bash
+   python run_pipeline.py
+This will:
+- Ingest and clean data
+- Create SQLite database
+- Compute all performance metrics
+- Run advanced analytics
+- Generate reports
+4. Launch the Streamlit Dashboard
+   ```bash
+   streamlit run streamlit_app.py
+
+## 📈What You Can Explore
+**Industry Overview**
+
+- Total AUM trends
+- SIP inflows and folio growth
+- Market share by fund houses
+
+## Fund Performance
+
+- Return vs Risk scatter plots
+- Fund scorecards (0–100)
+- NAV history vs benchmarks
+- Risk metrics (Sharpe, Sortino, Max Drawdown)
+
+## Investor Analytics
+
+- Transaction patterns by demographics
+- City-tier and state-wise insights
+- Behavioral segmentation
+
+## SIP & Market Trends
+
+- Monthly SIP inflows
+- Category-wise flows
+- Benchmark comparisons
+
+
+## 🛠️ Tech Stack
+
+-**Language**: Python
+-**Data Processing**: Pandas, NumPy
+-**Visualization**: Plotly, Streamlit
+-**Database**: SQLite
+-**Notebooks**: Jupyter
+-**Reporting**: HTML + Email automation
+-**Advanced Analytics**: SciPy, statsmodels, Monte Carlo simulations
+
+
+## 📚 Data Sources
+
+-AMFI India
+-mfapi.in
+-NSE India / BSE India
+-Bluestock Fintech Capstone Dataset
+
+-Data Period: January 2022 – May 2026
+
+## 📄 Documentation
+ 
+-Data Dictionary — Detailed schema of all datasets
+-Notebooks in /notebooks/ folder for methodology and analysis
+-Project report available in /src/
+
+
+## 🎯 Purpose
+This capstone project demonstrates real-world application of data engineering, financial analytics, and full-stack data science skills in the Indian Mutual Fund industry.
+
+## 👤 Author
+Pavan Kumar Koti
+Intern, Bluestock Fintech Pvt. Ltd. (Cohort 2025)
+
+## 📄 License
+This project is for educational and portfolio purposes. All rights reserved by Bluestock Fintech Pvt. Ltd.
+
+**Made with ❤️ for the Indian Mutual Fund Ecosystem**
