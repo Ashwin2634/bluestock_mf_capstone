@@ -24,31 +24,6 @@ This project delivers an end-to-end **Mutual Fund Analytics Platform** focused o
 
 ## 🗂️ Repository Structure
 
-bluestock_mf_capstone/
-├── data/                  # Raw and processed datasets
-├── notebooks/             # Jupyter notebooks for EDA & analysis
-│   ├── 01_data_ingestion.ipynb
-│   ├── 02_data_cleaning.ipynb
-│   ├── 03_eda_analysis.ipynb
-│   ├── 04_performance_analytics.ipynb
-│   └── 05_advanced_analytics.ipynb
-├── scripts/               # Production Python scripts
-├── src/                   # Source data & project documents
-├── reports/               # Generated reports & newsletters
-├── dashboard/             # Power BI or other dashboard files
-├── sql/                   # SQL queries and schema
-├── processed/             # Cleaned & enriched datasets (generated)
-├── db/                    # SQLite database (generated)
-├── streamlit_app.py       # Interactive Streamlit dashboard
-├── run_pipeline.py        # Main orchestration script
-├── email_report.py        # Automated newsletter generator
-├── requirements.txt
-├── data_dictionory.md     # Complete data dictionary
-└── README.md
-
-
-## 🗂️ Repository Structure
-
 ```bash
 bluestock_mf_capstone/
 ├── data/                    # Raw and processed datasets
@@ -167,6 +142,8 @@ Ashwin Prajapati
 Intern, Bluestock Fintech Pvt. Ltd. (Cohort 2026)
 
 ## 📄 License
-This project is for educational and portfolio purposes. All rights reserved by Bluestock Fintech Pvt. Ltd.
 
-**Made with ❤️ for the Indian Mutual Fund Ecosystem**
+Copyright © 2026 Bluestock Fintech Pvt. Ltd. All rights reserved.
+
+This is an internship project. All intellectual property rights belong to **Bluestock Fintech Pvt. Ltd.**  
+No part of this project may be reproduced or distributed without prior written permission.
