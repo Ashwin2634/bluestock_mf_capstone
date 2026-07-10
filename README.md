@@ -50,7 +50,7 @@ bluestock_mf_capstone/
 │   └── readme.md
 ├── dashboard/
 │   ├── bluestock_mf.pbix
-|   └── dashboard.pdf
+│   └── dashboard.pdf
 │   └── readme.md
 ├── reports/
 │   ├── Final_Report.pdf
