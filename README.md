@@ -148,6 +148,3 @@ Copyright © 2026 Bluestock Fintech Pvt. Ltd. All rights reserved.
 
 This is an internship project. All intellectual property rights belong to **Bluestock Fintech Pvt. Ltd.**  
 No part of this project may be reproduced or distributed without prior written permission.
-
-No part of this project may be reproduced or distributed without prior written permission.
->>>>>>> 59f142f (Final updated cleaned codebase)
